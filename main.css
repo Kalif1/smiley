@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /*line-height: 1.4em;*/
+    vertical-align: baseline;
+    text-decoration: none;
+    outline: 0;
+
+    box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+}
+
+
+
+/*----------------HEADER PAGE-------------*/
+.header-contact-social{
+	background-color: #1976D3;
+	color: #FFFFFF;
+	height: 50px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header-wrapper{
+	display: flex;
+	width: 1200px;
+	/*justify-content: center;*/
+	/*align-items: center;*/
+}
+
+.contact-wrapper{
+	display: flex;
+}
+
+.contact-wrapper p{
+	margin-left: 10px;
+	font-weight: 300;
+}
+
+.social-icons{
+	
+}
+
