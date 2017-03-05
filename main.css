@@ -16,6 +16,9 @@ body{
 	font-size: 15px;
 }
 
+.clear{
+	clear: both;
+}
 
 
 /*----------------HEADER PAGE-------------*/
@@ -30,14 +33,15 @@ body{
 }
 
 .header-wrapper{
-	display: flex;
-	width: 1200px;
-	/*justify-content: center;*/
+	/*display: flex;*/
+	min-width: 1200px;
 	/*align-items: center;*/
 }
 
 .contact-wrapper{
 	display: flex;
+	margin-right: 15px;
+	float: left;
 }
 
 .contact-wrapper p{
@@ -46,6 +50,23 @@ body{
 }
 
 .social-icons{
-	
+	float: right;
+	/*position: relative;*/
 }
 
+.social-icons i{
+	color: #1F95F1;
+}
+
+.social-icon-bg{
+	float: right;
+	width: 25px;
+	height: 25px;
+	background-color: white;
+	border-radius: 50px;
+	margin: 0 10px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
