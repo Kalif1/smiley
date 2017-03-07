@@ -7,8 +7,8 @@
     text-decoration: none;
     outline: 0;
 
-    box-sizing: border-box;
-    -ms-box-sizing: border-box;
+/*    box-sizing: border-box;
+    -ms-box-sizing: border-box;*/
 }
 
 body{
@@ -22,6 +22,8 @@ body{
 
 
 /*----------------HEADER PAGE-------------*/
+
+/*---SOCIAL ICONS---*/
 .header-contact-social{
 	background-color: #1976D3;
 	color: #FFFFFF;
@@ -34,7 +36,8 @@ body{
 
 .header-wrapper{
 	/*display: flex;*/
-	min-width: 1200px;
+	width: 1200px;
+	/*margin: 0 auto;*/
 	/*align-items: center;*/
 }
 
@@ -70,3 +73,11 @@ body{
 	justify-content: center;
 	align-items: center;
 }
+
+/*---MENU---*/
+.logo{
+	background-color: black;
+	width: 45px;
+	height: 45px;
+}
+
