@@ -24,6 +24,10 @@ body{
 /*----------------HEADER PAGE-------------*/
 
 /*---SOCIAL ICONS---*/
+.header{
+	height: 100vh;
+}
+
 .header-contact-social{
 	background-color: #1976D3;
 	color: #FFFFFF;
@@ -94,15 +98,9 @@ body{
 }
 
 
-
-
-
-
-
-
 .header-about{
 	background-image: url("img/header-bg.jpg");
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	background-size: 100% 82%;
 	height: 100vh;
 }
