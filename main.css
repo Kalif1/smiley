@@ -21,11 +21,14 @@ body{
 }
 
 
-/*----------------HEADER PAGE-------------*/
+/*-------------------------HEADER PAGE--------------------------------*/
 
-/*---SOCIAL ICONS---*/
+/****SOCIAL ICONS*****/
 .header{
 	height: 100vh;
+
+	display: flex;
+	flex-flow: column;
 }
 
 .header-contact-social{
@@ -61,6 +64,15 @@ body{
 	/*position: relative;*/
 }
 
+.social-icon-bg:hover{
+	background-color: #f95d5a;
+	cursor: pointer;
+}
+
+.social-icon-bg:hover > i{
+	color: white;
+}
+
 .social-icons i{
 	color: #1F95F1;
 }
@@ -78,29 +90,85 @@ body{
 	align-items: center;
 }
 
-/*---MENU---*/
+/****MENU****/
 .nav{
 	display: flex;
 	justify-content: center;
+	margin: 20px 0;
+}
+
+.logo{
+	width: 190px;
+	float: left;
+	align-items: center;
+	justify-content: flex-start;
 }
 
 .flex-menu{
 	display: flex;
-	justify-content: flex-end;
-}
-
-.main-menu, .search{
 	float: right;
+	width: 600px;
 }
 
 .main-menu{
-	display: flex;
+	float: left;
+	margin-top: 5px;
+}
+
+.main-menu li{
+	display: inline-block;
+	list-style: none;
+	margin-right: 15px;
+}
+
+.main-menu li a{
+	color: #000000;
+	text-transform: uppercase;
+	font-size: 0.9em;
+	font-weight: 600;
+}
+
+.main-menu li a:hover, .main-menu li a:focus{
+	color: #f95d5a;
+}
+
+.search{
+	float: right;
+	/*width: 15px;*/
+	margin-left: 25px;
+	/*margin-top: 5px;*/
+	border-radius: 50%;
+	background-color: #f95d5a;
+}
+
+.search i{
+	color: #FFFFFF;
+	padding: 10px;
+	font-weight: 300;
 }
 
 
+/*******BACKGROUND header*******/
 .header-about{
 	background-image: url("img/header-bg.jpg");
 	background-repeat: no-repeat;
-	background-size: 100% 82%;
-	height: 100vh;
+	background-size: 100% 100%;
+	flex: 1;
+}
+
+
+/******HEADER ABOUT*******/
+.header-about{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.h1{
+	text-transform: uppercase;
+}
+
+.h1-color{
+	color: #03a9f4;
 }
