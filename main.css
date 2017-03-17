@@ -12,7 +12,8 @@
 }
 
 body{
-	font-family: 'Open Sans', sans-serif;
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'Roboto', sans-serif;
 	font-size: 15px;
 }
 
@@ -125,7 +126,7 @@ body{
 	color: #000000;
 	text-transform: uppercase;
 	font-size: 0.9em;
-	font-weight: 600;
+	font-weight: 500;
 }
 
 .main-menu li a:hover, .main-menu li a:focus{
@@ -150,7 +151,8 @@ body{
 
 /*******BACKGROUND header*******/
 .header-about{
-	background-image: url("img/header-bg.jpg");
+/*	background-image: url("img/header-bg.jpg");*/
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/header-bg.jpg');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	flex: 1;
@@ -158,17 +160,43 @@ body{
 
 
 /******HEADER ABOUT*******/
+header{
+	/*position: relative;*/
+}
+
 .header-about{
 	text-align: center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	position: relative;
 }
 
 .h1{
 	text-transform: uppercase;
+	line-height: 1.6em;
+	font-size: 2.5em;
+	font-weight: 500;
 }
 
-.h1-color{
+.h1-blue{
 	color: #03a9f4;
+}
+
+.h1-white{
+	color: #FFFFFF;
+}
+
+.h1-description{
+	color: #FFFFFF;
+	/*margin-bottom: em;*/
+}
+
+.learn-more-position{
+	position: absolute;
+	/*top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)*/
+    top: 350px;
 }
